@@ -4,3 +4,12 @@
     padding: 10px;
     margin: 10px;
 }
+
+.phone {
+    font-weight: bold;
+}
+
+.bahan {
+    color: blue;
+    font-size: 19px;
+}
