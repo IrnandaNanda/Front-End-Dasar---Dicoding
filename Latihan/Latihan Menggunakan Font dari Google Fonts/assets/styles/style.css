@@ -31,7 +31,7 @@ h2, h3 {
   nav a {
     font-size: 18px;
     font-weight: 400; /* Mengatur Ketebalan font Menjadi 400 */
-    text-decoration: none; /* Mengatur Dekorasi teks tidak ada */
+    text-decoration: none; /* Mengatur Dekorasi teks menjadi tidak ada */
   }
 
   /* Mengubah Style Jika elemen disorot oleh kursor */
