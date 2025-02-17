@@ -44,3 +44,69 @@ main p {
 .tl-justify {
   text-align: justify;
 }
+/* Text Align End */
+
+
+
+/* Text - Decoration */
+.decoration-none {
+    text-decoration: none;
+  }
+/* Text - Decoration : None */
+
+
+
+/* Text - Transform */
+.transform-none {
+    text-transform: none;
+  }
+  
+  .transform-capitalize {
+    text-transform: capitalize;
+  }
+  
+  .transform-lowercase {
+    text-transform: lowercase;
+  }
+  
+  .transform-uppercase {
+    text-transform: uppercase;
+  }
+  /* Text - Transform End */
+
+
+  /* Word & Letter - Spacing */
+  .letter-spacing {
+    letter-spacing: 4px;
+  }
+  
+  .word-spacing {
+    word-spacing: 1.5em;
+  }
+  /* Word & Letter Spacing End */
+
+  /* Text - Shadow */
+  .one {
+    text-shadow: 2px 2px 0px #000000;
+    background-color: #eeeeee;
+    color: #666666;
+  }
+  
+  .two {
+    text-shadow: 4px 4px 3px #666666;
+    background-color: #dddddd;
+    color: #666666;
+  }
+  
+  .three {
+    text-shadow: 4px 4px 7px #111111;
+    background-color: #cccccc;
+    color: #ffffff;
+  }
+  
+  .four {
+    text-shadow: -2px -2px #666666;
+    background-color: #cccccc;
+    color: #bbbbbb;
+  }
+  /* Text - Shadow End */
