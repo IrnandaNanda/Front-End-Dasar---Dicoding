@@ -2,6 +2,8 @@
 /* Merubah Font Pada Seluruh Halaman body */
 body {
     font-family: Quicksand , Cursive;
+    margin: 0;
+    padding: 0;
 }
 
 /* Menetapkan Warna pada setiap elemen yang diperlukan */
@@ -82,3 +84,7 @@ h2, h3 {
     background-color: #00a2c6;
     padding: 5px;
  }
+
+ main {
+  padding: 20px;
+}
