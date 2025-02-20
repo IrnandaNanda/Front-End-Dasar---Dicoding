@@ -43,3 +43,14 @@ h2, h3 {
   .profile header {
     text-align: center;
   }
+
+  .featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover; /* Gambar penuh di dalam elemen tanpa merusak bentuknya, tapi bisa terpotong. */
+    object-position: center; /* Gambar dipotong dari tengah, jadi bagian utama tetap terlihat. */
+  }
+
+  .profile img {
+    width: 200px;
+  }
