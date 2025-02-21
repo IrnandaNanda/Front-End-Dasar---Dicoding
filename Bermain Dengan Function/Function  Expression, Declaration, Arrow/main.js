@@ -26,14 +26,16 @@ function multiply(a, b) {
   console.log(result);
   
 //Function di dalam function
-function multiplier(x) {
-    return function (num) {
-        return x * num
+function multiplier(firstNumber) {
+    return function (secondNumber) {
+        return firstNumber * secondNumber
     }
 }
 
-const double = (multiplier(10))
+// Deklarasi Parameter Pertama dalam function multiplier
+const double = (multiplier(10)) 
 const triple = (multiplier(20))
 
+// Deklarasi Parameter Kedua dalam function multiplier
 console.log(double(2))
 console.log(triple(5))
