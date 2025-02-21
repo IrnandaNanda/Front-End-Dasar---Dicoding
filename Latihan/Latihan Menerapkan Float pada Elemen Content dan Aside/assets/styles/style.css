@@ -102,3 +102,13 @@ aside {
   width: 25%;
   padding-left: 20px;
 }
+
+/* Digunakan untuk responsif Web */
+/* Cara Baca : Jika Screen saat ini lebar maximal 1000px maka jalankan... */
+/* Artinya code akan dijalankan jika lebar layar kurang dari 1000px */
+@media screen and (max-width: 1000px) {
+  #content, aside {
+    width: 100%;
+    padding: 0;
+  }
+}
