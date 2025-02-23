@@ -111,8 +111,8 @@ main .content .content-image img {
 /* Social Media Start */
 main aside {
   position: fixed;
-  inset-block: 0;
-  inset-inline-end: 0;
+  inset-block: 0; /* Mengatur posisi elemen atas dan bawah */
+  inset-inline-end: 0; /* mengatur posisi elemen di sisi akhir secara horizontal (biasanya kanan). */
 }
 main aside .social-media {
   height: 100%;
@@ -144,3 +144,31 @@ main aside .social-media li a {
     color: #89b0d9;
   }
 /* Social Media End */
+
+
+/* Medium devices (768px dan di bawahnya) */
+@media screen and (max-width: 768px) {
+  header.navbar-container {
+    flex-direction: column;
+  }
+
+  header.navbar-container .nav-list ul {
+    flex-wrap: wrap;
+    column-gap: 0.5rem;
+  }
+
+  main .content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  main .content .content-description .title {
+    font-size: 3rem;
+  }
+  main .content .content-description p {
+    font-size: 1rem;
+  }
+  main .content .content-image {
+    order: -1;
+  }
+}
