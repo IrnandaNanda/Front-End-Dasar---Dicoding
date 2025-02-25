@@ -177,16 +177,15 @@ footer{
     color: white;
     margin-top: 20px;
     /* font-weight: 600; */
-    text-align: start;
+    text-align: center;
     /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
     /* z-index: 999; */
 }
-
-
 /* Footer End */
+
 
 /* Responsif Mobile Start */
 @media (max-width: 750px) {
